@@ -1,0 +1,14 @@
+name: 'yaml-parser'
+description: 'A yaml parser to convert it to JSON output'
+author: 'aravindcranjan54@gmail.com'
+inputs:
+  file_path:
+    description: 'YAML File path '
+    required: true
+
+runs:
+  using: 'node20'
+  main: 'lib/index.js'
+branding:
+  icon: 'check-square'
+  color: 'blue'
